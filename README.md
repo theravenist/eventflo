@@ -1,6 +1,6 @@
-# EventHub - Production-Ready Event Ticket Booking Platform
+# EventFlo - Production-Ready Event Ticket Booking Platform
 
-EventHub is a modern, high-performance, full-stack event ticket booking and management platform. It represents software engineering practices tailored for production: utilizing clean OOP architecture, robust database transactions, concurrency checks to prevent overselling, role-based JWT sessions, memory caching with Redis, and containerized deployment with Docker.
+EventFlo is a modern, high-performance, full-stack event ticket booking and management platform. It represents software engineering practices tailored for production: utilizing clean OOP architecture, robust database transactions, concurrency checks to prevent overselling, role-based JWT sessions, memory caching with Redis, and containerized deployment with Docker.
 
 ---
 
