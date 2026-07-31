@@ -4,7 +4,7 @@ EventFlo is a modern, high-performance, full-stack event ticket booking and mana
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Prevent Overbooking:** Ensures zero ticket overselling by using atomic PostgreSQL transactions with row-level locks (`SELECT ... FOR UPDATE`).
 *   **Redis Cache Layer:** Accelerates read speeds by caching event details (`event:{id}`), public grids (`events:all`), trending recommendations (`events:trending`), search keywords, and user sessions.
@@ -14,7 +14,7 @@ EventFlo is a modern, high-performance, full-stack event ticket booking and mana
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 *   **Frontend:** React.js, Vite, Axios, React Router, custom CSS3 (premium glassmorphic styling).
 *   **Backend:** Node.js, Express.js (strict Object-Oriented patterns: Controllers, Services, Repositories, Models).
@@ -24,7 +24,7 @@ EventFlo is a modern, high-performance, full-stack event ticket booking and mana
 
 ---
 
-## 🗂️ Project Directory Structure
+##  Project Directory Structure
 
 ```
 ticket-organizer/
@@ -59,7 +59,7 @@ ticket-organizer/
 
 ---
 
-## 📊 Entity Relationship (ER) Diagram
+##  Entity Relationship (ER) Diagram
 
 ```mermaid
 erDiagram
@@ -140,7 +140,7 @@ erDiagram
 
 ---
 
-## ⚡ Setup & Execution Guide
+##  Setup & Execution Guide
 
 ### Prerequisite Checklist
 *   **Docker & Docker Compose** installed.
@@ -163,7 +163,7 @@ This builds and launches four container nodes:
 
 ### Step 2: Open the Web Portal
 Once started, visit:
-👉 **[http://localhost:3000](http://localhost:3000)**
+ **[http://localhost:3000](http://localhost:3000)**
 
 #### Pre-seeded Evaluation Accounts (Password: `password123`):
 *   **Administrator User:** `admin@eventhub.com`
@@ -172,7 +172,7 @@ Once started, visit:
 
 ---
 
-## 🧪 Running Concurrency Tests (Prevent Overbooking)
+##  Running Concurrency Tests (Prevent Overbooking)
 
 To verify the atomic Row-Level transactional locks:
 1.  Verify the PostgreSQL and Redis Docker containers are up.
@@ -186,7 +186,7 @@ This script creates a mock event with 5 seats, dispatches 10 parallel booking re
 
 ---
 
-## 🛰️ AWS Production Deployment
+##  AWS Production Deployment
 
 ### 1. Storage: AWS S3 Configuration
 1.  Create an AWS S3 Bucket (e.g. `eventhub-posters-bucket`).
