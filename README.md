@@ -10,7 +10,7 @@ EventFlo is a modern, high-performance, full-stack event ticket booking and mana
 *   **Redis Cache Layer:** Accelerates read speeds by caching event details (`event:{id}`), public grids (`events:all`), trending recommendations (`events:trending`), search keywords, and user sessions.
 *   **Role-Based Security:** Features visitor, customer, organizer, and platform admin user groups with JWT access and refresh token rotation.
 *   **QR Codes:** Generates high-fidelity QR passes encoded in base64 on checkouts, supporting simulated gate check-ins with unique scan checks.
-*   **Local Mocks Mode:** Automatically operates without AWS S3 or active SMTP credentials if they are absent, falling back to writing banner images to local storage and printing emails to the console.
+*   **Local Mocks Mode:** Automatically operates without AWS S3 or active SMTP credentials if they are absent, falling back to  writing banner images to local storage and printing emails to the console.
 
 ---
 
